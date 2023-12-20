@@ -20,3 +20,18 @@ for (int i = 0; i < mas.Length; i++)
 
 }
 if (a == 0) Console.WriteLine("В массиве нет одинаковых элементов.");
+
+
+
+//////using System.Text;
+//////Console.Write("Введите текст: ");
+//////StringBuilder text = new StringBuilder(Console.ReadLine());
+//////Console.WriteLine($"Исходный текст: {text}");
+//////for (int i = 0; i < text.Length; i++)
+//////{
+
+    
+//////    text[i] = (char)((int)text[i] - 1);
+
+//////}
+//////Console.WriteLine($"Преобразованный текст: {text}.");
